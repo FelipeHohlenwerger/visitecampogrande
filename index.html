@@ -5,19 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilos.css">
-    <title>Visite CG - Turismo em Campo Grande-MS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&family=Pangolin&family=Special+Elite&display=swap" rel="stylesheet">
+
+    <title>Campo Grande - A cidade Morena</title>
 </head>
 
 <body>
-    <header>
+    <header id="home">
         <nav class="header">
-            <a href="#" class="logo">Campo Grande</a>
+            <a href="#home" class="logo">Campo Grande</a>
             <input class="menu-btn" type="checkbox" id="menu-btn" />
             <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
             <ul class="menu">
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">História</a></li>
-                <li><a href="#">O que fazer em CG</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#history">História</a></li>
+                <li><a href="#attractions">O que fazer em CG</a></li>
             </ul>
             <!--Hamburger menu-->
         </nav>
@@ -26,8 +28,8 @@
         </figure>
     </header>
 
-    <section class="about">
-
+    <section class="about" id="about">
+        <br>
         <h2>Sobre CG</h2>
 
         <p>
@@ -43,7 +45,8 @@
             <em> Creditos do texto ao <a href="https://blog.guichevirtual.com.br/conheca-campo-grande-ms-cidade-morena/">Guichê Virtual</a></em>
         </p>
     </section>
-    <section class="history">
+    <section class="history" id="history">
+        <br>
         <h2>História</h2>
         <p>
             Em  21 de junho de 1872 José Antônio Pereira chegou e se alojou em terras férteis e completamente desabitadas da Serra de Maracaju, na confluência de dois córregos - mais tarde denominados Prosa e Segredo - e que hoje é o Horto Florestal.
@@ -65,40 +68,41 @@
             <em> Creditos do texto à <a href="https://pt.wikipedia.org/wiki/Campo_Grande#Hist%C3%B3ria">wikipedia</a>,  <a href="https://escola.britannica.com.br/artigo/Campo-Grande/483151">Britannica Escola</a> e ao jornal <a href="https://www.campograndenews.com.br/cidades/capital/campo-grande-113-anos-quem-somos">Campo Grande News</a></em>
         </p>
     </section>
-    <section class="attractions">
+    <section class="attractions" id="attractions">
+        <br>
         <h2>O que fazer</h2>
         <p>
             Com ruas largas e arborizadas, Campo Grande não perdeu o jeito de cidade do interior. Ela é porta de entrada para o Pantanal e a Serra da Bodoquena. A temática pantaneira está presente nas pinturas que decoram alguns prédios e na gastronomia. 
         </p>
         <p>
-            Campo Grande possui muitos bares, restaurantes, teatros, shoppings e locais para diversão diurna e noturna. Sendo uma das capitais com melhor qualidade de vida e uma das mais arborizadas do Brasil, Campo Grande possui muitos parques e praças. Para os que gostam de aventura os arredores da cidade oferecem muitas atividades de esporte de aventura, como rapel, trilhas e passeios de bike. Veja as opçoes abaixo e veja o que a cidade pode proporcionar!
+            Campo Grande possui muitos bares, restaurantes, teatros, shoppings e locais para diversão diurna e noturna. Sendo uma das capitais com melhor qualidade de vida e uma das mais arborizadas do Brasil, Campo Grande possui muitos parques e praças. Para os que gostam de aventura os arredores da cidade oferecem muitas atividades de esporte de aventura, como rapel, trilhas e passeios de bike. Escolha as opçoes abaixo e veja o que a cidade pode proporcionar!
         </p>
         <div class="grid">
             <figure class="container">
                 <a target="_blank" href="Attractions/historico.html">
                     <img class="attractions-img" src="img/historico.jpg" alt="locais para apaixonados por história">                   
-                    <figcaption>Para quem quer viajar no tempo</figcaption>
+                    <figcaption>Curte <strong>história?</strong> veja as opções de museus e monumentos históricos que a cidade proporciona</figcaption>
                 </a>
             </figure>
 
             <figure class="container">
                 <a target="_blank" href="Attractions/Parques.html">
                     <img class="attractions-img" src="img/parques.jpg" alt="Parques em Campo Grande">
-                    <figcaption>Para os que amam atividades ao ar livre</figcaption>
+                    <figcaption>Se curte esportes, bike, patins, skate ou apenas um lugar tranquilo para caminhar e relaxar, CG tem boas opções</figcaption>
                 </a>
             </figure>
 
             <figure class="container">
                 <a target="_blank" href="Attractions/natureza.html">
-                    <img class="attractions-img" src="img/natureza.jpg" alt="Belezas naturais Campo Grande">
-                    <figcaption>Para os aventureiros</figcaption>
+                    <img class="attractions-img" src="img/natureza.jpg" alt="Belezas naturais arredores Campo Grande">
+                    <figcaption>Se você quer conhecer cachoeiras, fazer trilhas ou esportes radicais os arredores da cidade tem ótimas opções</figcaption>
                 </a>
             </figure>
 
             <figure class="container">
                 <a target="_blank" href="Attractions/gastronomia.html">
                     <img class="attractions-img" src="img/gastronomia.jpg" alt="Onde comer em Campo Grande">
-                    <figcaption>Boa comida é sempre uma boa pedida!</figcaption>
+                    <figcaption>Quem não gosta de uma boa comida? veja as opções para aproveitar o melhor da gastronomia da cidade</figcaption>
                 </a>
             </figure>
         </div>
