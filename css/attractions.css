@@ -8,6 +8,13 @@ a {
     color: #000;
     text-decoration: none;
 }
+.places a:active,
+.places a:hover{
+    text-decoration: underline;
+}
+h1{
+    text-decoration: underline;
+}
 
 .menu {
     background-color: #fff;
@@ -83,7 +90,7 @@ body p {
   height: 100%;
   width: 100%;
 }
-@media(min-width:1280px){
+@media(min-width:800px){
     .container{
         height: 300px;
         width: 400px;
